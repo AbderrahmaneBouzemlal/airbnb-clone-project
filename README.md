@@ -1,9 +1,10 @@
-🏡 airbnb-clone-project
-🏠 Project Overview
-📌 Description
+### 🏡 airbnb-clone-project
+## 🏠 Project Overview
+# 📌 Description
 
 This project is a web-based Airbnb clone that allows users to list, browse, and book short-term rental properties. The platform supports both guests and hosts, offering features such as user authentication, property listings, availability calendars, booking management, and secure payments.
-🎯 Project Goals
+
+# 🎯 Project Goals
 
     Build a scalable and responsive web application for booking accommodations.
     Enable users to register, list properties, and manage bookings with ease.
@@ -11,7 +12,7 @@ This project is a web-based Airbnb clone that allows users to list, browse, and 
     Implement a secure and user-friendly interface for both hosts and travelers.
     Follow best practices in software architecture, testing, and deployment.
 
-🧰 Technology Stack
+# 🧰 Technology Stack
 Frontend
 
     Vue.js – JavaScript framework for building the interactive user interface.
@@ -34,7 +35,7 @@ DevOps & Deployment
     GitHub Actions / GitLab CI – CI/CD pipelines for automated testing and deployment.
     AWS / DigitalOcean / Heroku – Cloud platforms for deployment.
 
-🗃️ Database Design
+# 🗃️ Database Design
 
 The database schema supports all core Airbnb-like features, including user management, property listings, bookings, payments, and reviews. Below are the key entities, their fields, and how they relate to one another.
 🧑 Users
@@ -55,7 +56,7 @@ Relationships:
     A user can make multiple bookings (if a guest).
     A user can leave multiple reviews.
 
-🏘️ Properties
+# 🏘️ Properties
 
 Represents accommodations listed by hosts.
 
@@ -73,7 +74,7 @@ Relationships:
     A property can have multiple bookings.
     A property can receive multiple reviews.
 
-📅 Bookings
+# 📅 Bookings
 
 Handles reservation information for guests.
 
@@ -92,7 +93,7 @@ Relationships:
     A booking is linked to one property.
     A booking can be linked to one payment.
 
-💳 Payments
+# 💳 Payments
 
 Tracks financial transactions related to bookings.
 
@@ -108,7 +109,7 @@ Relationships:
 
     A payment belongs to one booking.
 
-⭐ Reviews
+# ⭐ Reviews
 
 Allows users to provide feedback on properties.
 
@@ -126,7 +127,7 @@ Relationships:
     A review is written by one user.
     A review is about one property.
 
-🔗 Entity Relationship Summary
+# 🔗 Entity Relationship Summary
 
 User ────────┐
     ▲        │
